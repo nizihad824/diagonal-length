@@ -15,8 +15,8 @@ void printDiagonalLength(int x, int y) {
 }
 
 bool isCorrect(int a, int b, int c, int d)
-{
-    if(a<c && b>d)return true; //checking upper left & lower right value is correct or not
+{    //checking upper left & lower right value is correct or not
+    if(a<c && b>d)return true; 
     else return false;
 }
 
@@ -46,9 +46,9 @@ void makeBigSquare(int x, int y, int x1, int y1, int x3, int y3, int x4, int y4)
 }
 int main()
 {
-
+     cout<<"---------------------------------------------------------------------- "<<endl;
     int x1,y1,x2,y2,x3,y3,x4,y4;
-    cout<<" Input Upper left corner : ";
+    cout<<"Input Upper left corner : ";
     cin>>x1>>y1;
     cout<<"Input Lower right corner: ";
     cin>>x2>>y2;
